@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{page.title}} | ​Communicating the environmental impact of plant based recipes</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="./">
+</head>
+
+<body>
+  <section class="cover">
+    <div class="inside">
+      <div class="description">
+        <h1>F​Communicating the environmental impact of plant based recipes</h1>
+        <h2>project funded by <a href="https://www.alprofoundation.org/" rel="external" target="_blank">The Alpro Foundation</a></h2>
+      </div>
+    </div>
+    <nav class="mainNav">
+      <ul>
+        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
+        <li>
+          <a href="/mdk21{{ p.url }}" {% if p.url==page.url %}class="active" {% endif %}>
+            {{ p.title }}
+          </a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </nav>
+
+  </section>
+
+  <div class="mainContent">
+    {{ content }}
+  </div>
+  <footer id="appFooter">
+    <div class="footerCont">
+      <div class="projLogoCont">
+        <a href="https://www.alprofoundation.org/" rel="external" target="_blank">
+          <img alt="Alpro Foundation" src="img/alpro-foundation-logo.png">
+        </a>
+        <a href="http://www.city.ac.uk/foodpolicy" rel="external" target="_blank">
+          <img alt="City, University of London, Centre for Food Policy" src="img/city.png">
+        </a>
+        <a href="https://www.sheffield.ac.uk/" rel="external" target="_blank">
+          <img alt="University of Sheffield" src="img/uos-crest.svg">
+        </a>
+        <a href="https://www.textminingsolutions.co.uk/" rel="external" target="_blank">
+          <img alt="Text Mining Solutions" src="img/tms.png">
+        </a>
+        <a href="https://huc.knaw.nl/" rel="external" target="_blank">
+          <img alt="KNAW Humanities Cluster" src="img/huc_logo.png">
+        </a>
+        <a href="https://www.uib.no/en" rel="external" target="_blank">
+          <img alt="University of Bergen" src="img/uib.svg">
+        </a>
+        <a href="https://www.wur.nl/en/wageningen-university.htm" rel="external" target="_blank">
+          <img alt="Wageningen University & Research" src="img/wur.png">
+        </a>
+      </div>
+	  
+    </div>
+  </footer>
+</body>
+
+</html>
