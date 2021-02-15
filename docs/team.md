@@ -47,7 +47,7 @@ Diana Maynard is the lead computational linguist in the GATE research team, deve
 
 <p class="textblock" markdown="1">
 
-Steve Brewer is the founder and director at Text Mining Solutions and in this project he is the lead consultant who designed the prototype tool. He will be continuing to develop the tool in this grant.
+Steve Brewer is the founder and director at Text Mining Solutions and in this project he is the lead consultant who designed the prototype tool. He will be continuing to develop the tool in this project.
 
 </p>
 
@@ -99,8 +99,6 @@ Christoph Trattner is a leader in analysis of recipes to examine Behavioral Data
 </section>
 
 
-</section>
-
 <section markdown="1">
 
 ![Alain Starke](https://www.vcard.wur.nl/WebServices/GetMedia.ashx?id=98453){: .profile-pic}
@@ -110,7 +108,7 @@ Christoph Trattner is a leader in analysis of recipes to examine Behavioral Data
 
 <p class="textblock" markdown="1">
 
-Alain Starke is a postdoctoral research fellow in human-computer interaction and (sustainable) food decision-making. From autumn 2020 onwards, he will work on the ‘Me, My Diet, I’ project to design personalized nutrition interventions to support healthy eating habits.
+Alain Starke is a postdoctoral research fellow in human-computer interaction and (sustainable) food decision-making. Since the autumn of 2020, he has been working   on the ‘Me, My Diet, I’ project to design personalized nutrition interventions to support healthy eating habits.
 </p>
 
 </section>
